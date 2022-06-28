@@ -1,0 +1,45 @@
+{
+  "name": "seccon22",
+  "version": "1.0.202206011717",
+  "description": "API and server for ATT Sec Con site 2022",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "dev:build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "att",
+    "seccon",
+    "conference",
+    "2022"
+  ],
+  "author": "Greg Miller",
+  "license": "ISC",
+  "dependencies": {
+    "@humanwhocodes/env": "^2.2.0",
+    "axios": "^0.21.4",
+    "axios-retry": "^3.1.9",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^5.1.0",
+    "https-proxy-agent": "^5.0.0",
+    "joi": "^17.4.0",
+    "lodash.isempty": "^4.4.0",
+    "lodash.iserror": "^3.1.1",
+    "lodash.isnil": "^4.0.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-util": "^3.0.8",
+    "gulp-watch": "^5.0.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-plumber": "^1.2.1",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "nodemon": "^2.0.15"
+  }
+}
